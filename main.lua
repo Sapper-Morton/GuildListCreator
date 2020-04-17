@@ -64,7 +64,7 @@ function GBLC:HandleChatCommand(input)
 	end
 
 ---------------------------------------
--- Set limit
+-- Display status
 ---------------------------------------
 
 	if (string.match(lcinput, "status")) then
