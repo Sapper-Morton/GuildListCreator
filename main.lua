@@ -75,7 +75,7 @@ function GBLC:HandleChatCommand(input)
 		if (not UseCSV) then
 			GBLC:Print('Output CSV: ' .. GBLC:BoolText(UseCSV))
 		else
-			GBLC:Print('Output CSV: ' .. GBLC:BoolText(UseCSV) .. '. The character limiter off.')
+			GBLC:Print('Output CSV: ' .. GBLC:BoolText(UseCSV) .. '. The character limiter is off.')
 		end
 		gotcommands = true
 	end
